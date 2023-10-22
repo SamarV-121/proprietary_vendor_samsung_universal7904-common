@@ -87,24 +87,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
-    gralloc.exynos7904 \
-    hwcomposer.exynos7904 \
-    libExynosHWCService \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
-    libGrallocWrapper \
-    libacryl \
     libegis_fp_normal_sensor_test \
-    libepicoperator \
-    libexynosdisplay \
-    libexynosgraphicbuffer \
-    libexynosgscaler \
-    libexynosscaler \
-    libexynosutils \
-    libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
-    libion_exynos \
     libprofileparamstorage \
     libqfp_sensortest \
     libril-samsung \
@@ -113,41 +98,23 @@ PRODUCT_PACKAGES += \
     libsecnativefeature \
     libsecril-client.universal7904 \
     libsemnativecarrierfeature \
-    libstagefrighthw \
     libsynaFpSensorTestNwd \
     libwrappergps \
     libyasalgo \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.HEVC.Encoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.WMV.Decoder \
     libaudioeffectoffload \
     libswdap \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio@2.0 \
     vendor.samsung.hardware.radio@2.1 \
-    camera.device@3.2-impl.universal7904 \
-    camera.device@3.3-impl.universal7904 \
-    camera.device@3.4-impl.universal7904 \
-    camera.device@3.5-impl.universal7904 \
     audio.primary.exynos7904 \
     libSamsungPostProcessConvertor \
-    lib_SamsungRec_07001 \
+    lib_SamsungRec_07010 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
     libaudio-ril \
     libaudio_soundtrigger \
     librecordalive \
     libsamsungDiamondVoice \
-    libstagefright_omx_vendor \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
     libwvhidl \
     libwvdrmengine \
     libaudioroute.universal7904 \
