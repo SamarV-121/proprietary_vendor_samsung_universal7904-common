@@ -882,3 +882,31 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "libGLES_mali_vulkan.universal7904_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/vulkan.universal7904.so",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libOpenCL.so",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL.so_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libOpenCL.so.1",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL.so.1_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libOpenCL.so.1.1",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
