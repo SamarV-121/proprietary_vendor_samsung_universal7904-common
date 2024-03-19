@@ -133,3 +133,9 @@ PRODUCT_PACKAGES += \
     rild \
     vendor.samsung.hardware.gnss@2.0-service \
     main_abox
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_vulkan.universal7904_symlink64 \
+    libGLES_mali_libOpenCL_symlink64 \
+    libGLES_mali_libOpenCL.so_symlink64 \
+    libGLES_mali_libOpenCL.so.1_symlink64
