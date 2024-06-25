@@ -111,12 +111,12 @@ PRODUCT_PACKAGES += \
     lib_soundaliveresampler \
     libaudio-ril \
     libaudio_soundtrigger \
+    libaudioroute.universal7904 \
     librecordalive \
     libsamsungDiamondVoice \
+    libtinyalsa.universal7904 \
     libwvhidl \
     libwvdrmengine \
-    libaudioroute.universal7904 \
-    libtinyalsa.universal7904 \
     android.hardware.gnss@2.1-impl \
     vendor.samsung.hardware.gnss@2.0-impl \
     libengmode_client \
