@@ -104,8 +104,6 @@ PRODUCT_PACKAGES += \
     libaudioeffectoffload \
     libswdap \
     vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
     audio.primary.exynos7904 \
     libSamsungPostProcessConvertor \
     lib_SamsungRec_07010 \
