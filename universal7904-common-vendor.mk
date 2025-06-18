@@ -86,22 +86,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
-    libegis_fp_normal_sensor_test \
     libfloatingfeature \
-    libgf_in_system_lib \
-    libprofileparamstorage \
-    libqfp_sensortest \
     libril-samsung \
-    libsecaudiocoreutils \
-    libsecaudioinfo \
     libsecnativefeature \
-    libsecril-client.universal7904 \
+    libsecril-client \
     libsemnativecarrierfeature \
-    libsynaFpSensorTestNwd \
     libwrappergps \
     libyasalgo \
-    libaudioeffectoffload \
-    libswdap \
     vendor.samsung.hardware.radio.bridge@2.0 \
     audio.primary.exynos7904 \
     libSamsungPostProcessConvertor \
@@ -111,16 +102,25 @@ PRODUCT_PACKAGES += \
     libaudio-ril \
     libaudio_soundtrigger \
     libaudioroute.universal7904 \
+    libprofileparamstorage \
     librecordalive \
     libsamsungDiamondVoice \
+    libsecaudiocoreutils \
+    libsecaudioinfo \
     libtinyalsa.universal7904 \
     libwvhidl \
     libwvdrmengine \
+    libaudioeffectoffload \
+    libswdap \
     android.hardware.gnss@2.1-impl \
     vendor.samsung.hardware.gnss@2.0-impl \
+    libegis_fp_normal_sensor_test \
     libengmode_client \
+    libgf_in_system_lib \
+    libqfp_sensortest \
     libsec-ril-dsds \
     libsec-ril \
+    libsynaFpSensorTestNwd \
     libvkmanager_vendor \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
@@ -128,8 +128,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.widevine \
     gpsd \
     rild \
-    vendor.samsung.hardware.gnss@2.0-service \
-    main_abox
+    vendor.samsung.hardware.gnss@2.0-service
 
 PRODUCT_PACKAGES += \
     libGLES_mali_vulkan.universal7904_symlink64 \
